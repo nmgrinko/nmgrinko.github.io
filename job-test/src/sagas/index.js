@@ -1,10 +1,10 @@
 import { put, takeLatest, all } from "redux-saga/effects";
 
-
+const povider = 'https://cors-anywhere.herokuapp.com/';
 const urlTest = 'http://users.bugred.ru/tasks/rest/list';
 
 function* fetchJson() {
-  const json = yield fetch(urlTest).then(response => response.json());
+  const json = yield fetch(povider+urlTest).then(response => response.json());
   yield put({ type: "JSON_RECEIVED", data: json.resources });
 }
 

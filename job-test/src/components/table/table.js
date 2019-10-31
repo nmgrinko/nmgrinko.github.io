@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 
 import Styles from './table-styles';
@@ -32,7 +32,7 @@ const dataR = {props}.props;
 const dataX = () => {
   let data = [];
 
-       if (dataR == undefined) {
+       if (dataR === undefined) {
           return data 
        }
        else {
