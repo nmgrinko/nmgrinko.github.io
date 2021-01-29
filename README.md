@@ -1,4 +1,4 @@
-| N |      Name Projects     |                        Code                        |                       View                       |
+| N |      Name Projects     |                        Code                        |                       Demo                       |
 |---|------------------------|----------------------------------------------------|--------------------------------------------------|
 | 1 |  react-todo            | <https://github.com/nmgrinko/react-todo>           | <https://nmgrinko.github.io/react-todo>          |
 | 2 |  react-table           | <https://github.com/nmgrinko/react-table>          | <https://nmgrinko.github.io/react-table>         |
